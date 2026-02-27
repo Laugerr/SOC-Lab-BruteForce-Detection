@@ -41,30 +41,25 @@ The tool performs the following steps:
 ## 🚨 Example Output
 
 
-========== SOC ALERT REPORT ==========
+================= SOC ALERT REPORT =================
 
-IP Address: 192.168.1.50
-Failed Attempts: 3
+IP Address:        192.168.1.50
+Failed Attempts:   3
 Successful Logins: 1
-Risk Level: CRITICAL
-🚨 ALERT: Potential brute-force attack detected!
+Risk Level:        CRITICAL
 
-
----
+🚨 ALERT: Potential brute‑force attack detected!
 
 ## 🗂 Project Structure
 
 
 SOC-Lab-BruteForce-Detection/
-│
 ├── sample_logs/
-│ └── auth.log
-│
+│   └── auth.log
 ├── parser.py
 ├── mitre_mapping.md
 ├── incident_report.md
 └── README.md
-
 
 ---
 
