@@ -206,3 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 alerts.csv
+alerts_high.csv
+alerts.jsonl
+*.jsonl
